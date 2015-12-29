@@ -100,10 +100,6 @@ public class FacebookStats {
 				"hdfs://127.0.0.1:9000/out"));
 		
 		System.exit(job.waitForCompletion(true) ? 0 : 1);
-		
-		job.submit();
-		
-		hdfs.close();
 
 	}
 }
